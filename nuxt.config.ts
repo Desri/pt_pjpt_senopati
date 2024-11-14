@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: false },
+  ssr: false,
+  devtools: { enabled: true },
   app: {
     head: {
       title: 'PT. PJPT SENOPATI',
@@ -20,21 +20,27 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     '@pinia/nuxt',
-    // '@vee-validate/nuxt',
+    '@nuxt/eslint',
+    '@vee-validate/nuxt',
     '@nuxt/ui'
   ],
   ui: {
     global: true
   },
-  // veeValidate: {
-  //   autoImports: true,
-  //   componentNames: {
-  //     Form: 'VeeForm',
-  //     Field: 'VeeField',
-  //     FieldArray: 'VeeFieldArray',
-  //     ErrorMessage: 'VeeErrorMessage',
-  //   },
-  // },
+  veeValidate: {
+    autoImports: true,
+    componentNames: {
+      Form: 'VeeForm',
+      Field: 'VeeField',
+      FieldArray: 'VeeFieldArray',
+      ErrorMessage: 'VeeErrorMessage',
+    },
+  },
+  eslint: {
+    config: {
+      stylistic: true
+    }
+  },
   tailwindcss: {
     configPath: 'tailwind.config',
     exposeConfig: true,

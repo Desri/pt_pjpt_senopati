@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import type { Login, ResponseLogin } from '/types/login'
+import type { Login, ResponseLogin } from '~/types/login'
 
 export const useLoginStore = defineStore('login', () => {
   const isAuth = ref<boolean>(false)
