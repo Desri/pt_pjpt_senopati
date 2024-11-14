@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+  background-color: #ffffff;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body, .p-component {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+a:focus-visible {
+  outline: 0px;
+}
+
+/*============================================
+                  BACKGROUND
+=============================================*/
+.bg-gradient {
+  background-image: linear-gradient(153deg, #712bda 30%, #a45deb 130%);
+}
+.bg-gradient-button {
+  background-image: linear-gradient(98deg, #712bda -48%, #a45deb 52%);
+}
+.bg-opacity {
+  background-color: rgba(28, 28, 45, 0.9)
+}
+
+/*============================================
+                FONT FAMILY
+=============================================*/
+.font-regular {
+  font-family: 'Roboto-Regular', sans-serif;
+}
+.font-medium {
+  font-family: 'Roboto-Medium', sans-serif;
+}
+.font-medium-italic {
+  font-family: 'Roboto-MediumItalic', sans-serif;
+}
+.font-bold {
+  font-family: 'Roboto-Bold', sans-serif;
+}
+.font-italic {
+  font-family: 'Roboto-Italic', sans-serif;
+}
+.font-light {
+  font-family: 'Roboto-Light', sans-serif;
+}
+.font-light-italic {
+  font-family: 'Roboto-LightItalic', sans-serif;
+}
+.font-thin {
+  font-family: 'Roboto-Thin', sans-serif;
+}
+.font-thin-italic {
+  font-family: 'Roboto-ThinItalic', sans-serif;
+}
+
+.dots::after {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  text-align: left;
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0%, 20% {
+      content: '';
+  }
+  40% {
+      content: '.';
+  }
+  60% {
+      content: '..';
+  }
+  80%, 100% {
+      content: '...';
+  }
+}
