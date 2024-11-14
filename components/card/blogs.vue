@@ -42,5 +42,3 @@
     max-height: 49px;
   }
 </style>
-
-    

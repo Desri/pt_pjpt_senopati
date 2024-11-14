@@ -3,7 +3,6 @@
     <footer class="bg-[#213442] text-white py-8">
       <div class="px-4 sm:px-0 mx-auto max-w-screen-lg py-12">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <!-- About Section -->
           <div>
             <h2 class="text-xl font-bold mb-4">
               About
@@ -15,7 +14,6 @@
               Get a Quote
             </button>
           </div>
-          <!-- Links Section -->
           <div>
             <h2 class="text-xl font-bold mb-4">
               Links
@@ -53,7 +51,6 @@
               </li>
             </ul>
           </div>
-          <!-- Image Gallery Section -->
           <div>
             <h2 class="text-xl font-bold mb-4">
               Image Gallery
@@ -65,7 +62,6 @@
               <img alt="Image of people working together" class="w-full h-auto rounded" height="100" src="https://storage.googleapis.com/a1aa/image/76HUZ65WYyqZKlHAMIUxZ3IAjeLMHz3Y4Ir7wbl2qAHWAT4JA.jpg" width="100"/>
             </div>
           </div>
-          <!-- Contact Info Section -->
           <div>
             <h2 class="text-xl font-bold mb-4">
               Contact Info
