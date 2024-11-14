@@ -9,7 +9,8 @@
 <script setup lang="ts">
   import { definePageMeta } from '#imports'
   definePageMeta({
-    layout: 'login'
+    layout: 'login',
+    middleware: ['already-auth']
   })
 </script>
 
